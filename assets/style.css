@@ -6,7 +6,7 @@
 	top: 0;
 	left: 0;
 	zoom: reset;
-    visibility: visible !important;
+    visibility: :focus-visible;
 }
         {
             width: 100%;
