@@ -72,9 +72,31 @@
             </div>
            </div>
         </div>
-        <script src="/__/firebase/7.6.2/firebase-app.js"></script>
-        <script src="/__/firebase/7.6.2/firebase-auth.js"></script>
-        <script src="/__/firebase/7.6.2/firebase-firestore.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD2E6vt3tK7F92dYOTZhX2IbIQe7Os1zPc",
+    authDomain: "train-scheduler-ba9ec.firebaseapp.com",
+    databaseURL: "https://train-scheduler-ba9ec.firebaseio.com",
+    projectId: "train-scheduler-ba9ec",
+    storageBucket: "train-scheduler-ba9ec.appspot.com",
+    messagingSenderId: "126826014129",
+    appId: "1:126826014129:web:0c4ecd082f61e234e98990",
+    measurementId: "G-D2DD9ZJ6MK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
 </body>
 </html>
 
